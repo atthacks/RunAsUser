@@ -18,7 +18,7 @@
             if (args.Length > 0)
             {
                 // If the argument count is greater than 0 we check the arguments
-                // If -h or --help is supplied as an argument we will not enter this if condition
+                // If -h or --help is supplied as an argument we will not enter this if condition below
                 if (CheckArguments(args))
                 {
                     // We are not testing the credentials or whether the file exists - this just simply attempts to run the program specified with the given credentials
