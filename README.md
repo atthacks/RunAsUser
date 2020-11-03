@@ -34,3 +34,10 @@ This command then executed `nc.exe` as the `superadmin` user and it connected ba
 To view the help, simply run the tool with either `-h` or `--help`.
 
 You may also just run the tool and you will be prompted at each step for the arguments you wish to supply.
+
+**Edit**
+
+I have updated this README to show an example of where "runas" does not work and "RunAsUser" does work. I created this tool for this exact reason. I was on a machine and had credentials and my initial thought was runas, however this would not work and kept skipping over the password prompt. I am aware there are other solutions to do the same thing, but I enjoyed making this quick tool and thought I would share it.
+
+![](RunAsUser.gif)
+
